@@ -2,10 +2,6 @@ public class Personne {
     private String matricule;
     private String nom;
     private String prenom;
-    private String adresse;
-    private String phone;
-    private int age;
-    private char sexe;
 
     public Personne(String matricule, String nom, String prenom, String adresse, String phone, int age, char sexe) {
         this.matricule = matricule;
@@ -16,6 +12,11 @@ public class Personne {
         this.age = age;
         this.sexe = sexe;
     }
+
+    private String adresse;
+    private String phone;
+    private int age;
+    private char sexe;
 
     public String getMatricule() {
         return matricule;
